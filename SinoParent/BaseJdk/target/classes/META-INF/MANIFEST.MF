@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: lonny
+Build-Jdk: 9.0.4
+Implementation-Title: BaseJdk
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.sino
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SinoParent/BaseJdk
+Created-By: Maven Integration for Eclipse
+
