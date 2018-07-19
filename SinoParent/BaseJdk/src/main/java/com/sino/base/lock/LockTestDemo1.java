@@ -14,7 +14,7 @@ public class LockTestDemo1 {
 
         withReentLock();
         HashMap<String, String> stringStringHashMap = new HashMap<>();
-        
+
 //		withoutLock();
 //		withSync();
     }
