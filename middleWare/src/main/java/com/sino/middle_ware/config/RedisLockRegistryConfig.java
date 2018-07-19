@@ -2,6 +2,7 @@ package com.sino.middle_ware.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -16,10 +17,13 @@ public class RedisLockRegistryConfig {
 	
 	private static final String PRE_CACHE_LOCK = "cache_lock";
 
+	@Autowired
+	RedisConnectionFactory luttuceConnectionFactory;
+	
 	
 	@Bean
-	public RedisLockRegistry createRedisLock(RedisConnectionFactory factory) {
-	    RedisLockRegistry lock = new RedisLockRegistry(factory, PRE_CACHE_LOCK);
+	public RedisLockRegistry createRedisLock() {
+	    RedisLockRegistry lock = new RedisLockRegistry(luttuceConnectionFactory, PRE_CACHE_LOCK,1000);
 	    redisLockRegistry = lock;
 	    return lock;
 	}

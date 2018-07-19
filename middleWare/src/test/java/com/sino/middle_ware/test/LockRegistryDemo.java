@@ -32,34 +32,66 @@ public class LockRegistryDemo {
 	private static AtomicInteger  count1 = new AtomicInteger(0);
 	private static AtomicInteger  count2 = new AtomicInteger(0);
 	
-	@Test
-	public void test1() {
-		Runnable r1 = new Runnable() {
-			@Override
-			public void run() {
+	
+	private void repeatedBuy() {
 
-				for (int i = 0; i < 300; i++) {
-					buyGoods(Thread.currentThread().getName());
-				}
-			}
-		};
-		
-		Thread thread = new Thread(r1);
-		thread.setName("TTTTTTLLLLLLLLTTTTTTTT");
-		thread.start();
+		for (int i = 0; i < 300; i++) {
+			buyGoods(Thread.currentThread().getName(),false);
+		}
 		
 	}
+	
+	
+	
+	@Test
+	public void test2() {
+		while (true) {
+			buyGoods(Thread.currentThread().getName(),true);
+		}
+	}
+	
+	
+	
+	@Test
+	public void test1() {
 
+		Thread thread = new Thread(() -> {
 
+			for (int i = 0; i < 600; i++) {
+				System.out.println("输出次数：" + i);
+				buyGoods(Thread.currentThread().getName(), false);
+			}
+		}, "my thread 001");
 
-	synchronized private void buyGoods(String threadName) {
+		
+		Thread thread2 = new Thread(() -> {
+
+			for (int i = 0; i < 601; i++) {
+				System.out.println("输出次数：" + i);
+				buyGoods(Thread.currentThread().getName(), true);
+			}
+		}, "my thread 002");
+		
+		thread.start();
+		thread2.start();
+
+	}
+
+	 private void buyGoods(String threadName,Boolean type) {
 		RedisLockRegistry redisLockRegistry = RedisLockRegistryConfig.getRedisLockRegistry();
 		Lock lock = redisLockRegistry.obtain(GOODS_BALANCE_LOCK);
+		String string = lock.toString();
+		System.out.println("lock string :" + string);
+
 		try {
-			lock.tryLock(100, TimeUnit.MILLISECONDS);
-			
-			int incrementAndGet = count.incrementAndGet();
-			System.out.println(threadName + " TODO...." + incrementAndGet);
+			lock.lockInterruptibly();
+			if(type) {
+				int incrementAndGet = count.incrementAndGet();
+				System.out.println(threadName + " +++++" + incrementAndGet);
+			}else {
+				int incrementAndGet = count.decrementAndGet();
+				System.out.println(threadName + " -----" + incrementAndGet);
+			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -67,7 +99,7 @@ public class LockRegistryDemo {
 
 		} finally {
 			try {
-				lock.unlock();
+//				lock.unlock();
 			} catch (Exception e) {
 				e.printStackTrace();
 				System.out.println("解锁失败");
