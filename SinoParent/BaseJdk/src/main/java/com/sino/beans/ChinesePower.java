@@ -3,7 +3,7 @@ package com.sino.beans;
 /**
  *220
  */
-public class ChinaesePower extends CommonPower {
+public class ChinesePower extends CommonPower {
 
 	private int voltage;
 	private int current;
@@ -24,13 +24,13 @@ public class ChinaesePower extends CommonPower {
 		this.current = current;
 	}
 
-	public ChinaesePower(int voltage, int current) {
+	public ChinesePower(int voltage, int current) {
 		super();
 		this.voltage = voltage;
 		this.current = current;
 	}
 
-	public ChinaesePower() {
+	public ChinesePower() {
 		super();
 	}
 
