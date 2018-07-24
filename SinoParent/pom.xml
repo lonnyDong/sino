@@ -8,6 +8,9 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>BaseJdk</module>
+		<module>redisson-spring-boot-starter</module>
+		<module>middleWare</module>
+		<module>EurekaRegisterCenter</module>
 	</modules>
 
 	<parent>

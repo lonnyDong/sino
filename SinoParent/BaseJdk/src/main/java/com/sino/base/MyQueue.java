@@ -7,10 +7,12 @@ public class MyQueue {
 
 	private static final int INITSIZE = 10;
 	private int maxSize = 10;
+	
 	/**
 	 * 头部
 	 */
 	private volatile int head = 0;
+	
 	/**
 	 * 尾部
 	 */
@@ -64,7 +66,6 @@ public class MyQueue {
 		head--;
 		return res;
 	}
-
 
 	public static void main(String[] args) {
 
