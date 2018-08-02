@@ -11,6 +11,7 @@
 		<module>redisson-spring-boot-starter</module>
 		<module>middleWare</module>
 		<module>EurekaRegisterCenter</module>
+		<module>elasticDemo</module>
 	</modules>
 
 	<parent>
