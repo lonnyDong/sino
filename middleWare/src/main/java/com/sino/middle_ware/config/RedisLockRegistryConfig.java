@@ -23,12 +23,14 @@ public class RedisLockRegistryConfig {
 	
 	@Bean
 	public RedisLockRegistry createRedisLock() {
+		System.out.println("初始化bean ....");
 	    RedisLockRegistry lock = new RedisLockRegistry(luttuceConnectionFactory, PRE_CACHE_LOCK,1000);
 	    redisLockRegistry = lock;
 	    return lock;
 	}
 	
 	public  static RedisLockRegistry getRedisLockRegistry() {
+		System.out.println("加载静态方法 ....");
 	    if (redisLockRegistry == null) {
 	        while (true) {
 	            try {

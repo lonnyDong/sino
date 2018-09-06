@@ -7,10 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BaseJdk" />
+        <module name="elasticDemo" />
+        <module name="EurekaRegisterCenter" />
+        <module name="middleWare" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BaseJdk" target="1.8" />
+      <module name="elasticDemo" target="1.8" />
+      <module name="EurekaRegisterCenter" target="1.8" />
+      <module name="middleWare" target="1.8" />
       <module name="SinoParent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

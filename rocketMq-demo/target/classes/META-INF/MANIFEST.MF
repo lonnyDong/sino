@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: rocketMq-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lonny
+Implementation-Vendor-Id: com.sino
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SinoParent/rocketMq-demo
+Created-By: Maven Integration for Eclipse
+

@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaseJdk/BaseJdk.iml" filepath="$PROJECT_DIR$/BaseJdk/BaseJdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaRegisterCenter/EurekaRegisterCenter.iml" filepath="$PROJECT_DIR$/EurekaRegisterCenter/EurekaRegisterCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinoParent.iml" filepath="$PROJECT_DIR$/SinoParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticDemo/elasticDemo.iml" filepath="$PROJECT_DIR$/elasticDemo/elasticDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middleWare/middleWare.iml" filepath="$PROJECT_DIR$/middleWare/middleWare.iml" />
     </modules>
   </component>
 </project>

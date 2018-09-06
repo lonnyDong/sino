@@ -8,6 +8,11 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>BaseJdk</module>
+		<module>redisson-spring-boot-starter</module>
+		<module>middleWare</module>
+		<module>EurekaRegisterCenter</module>
+		<module>elasticDemo</module>
+		<module>rocketMq-demo</module>
 	</modules>
 
 	<parent>
