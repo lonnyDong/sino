@@ -28,7 +28,6 @@ public class RedisSession {
 	
 	@Test
 	public void hashTest() {
-		
 		HashOperations<String, Object, Object> opsForHash = redisTemplate.opsForHash();
 		//1.用户登录 返回用户id
 		String sessionId  = "sessionid" ;

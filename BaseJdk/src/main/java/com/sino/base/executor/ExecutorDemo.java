@@ -20,7 +20,7 @@ public class ExecutorDemo {
 
 		// ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(5);//线程池数量为5
 		
-		ExecutorService executor = Executors.newCachedThreadPool();
+		ExecutorService executor = Executors.newCachedThreadPool();//生产环境不建议使用
 		MyRunable myRunable = new MyRunable();
 		// 第一种:执行Runable
 		executor.submit(myRunable);
