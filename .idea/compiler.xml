@@ -10,6 +10,7 @@
         <module name="elasticDemo" />
         <module name="EurekaRegisterCenter" />
         <module name="middleWare" />
+        <module name="RedisLock" />
         <module name="rocketMq-demo" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BaseJdk" options="-parameters" />
       <module name="EurekaRegisterCenter" options="-parameters" />
+      <module name="RedisLock" options="-parameters" />
       <module name="elasticDemo" options="-parameters" />
       <module name="middleWare" options="-parameters" />
       <module name="rocketMq-demo" options="-parameters" />
