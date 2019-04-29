@@ -10,14 +10,17 @@
         <module name="elasticDemo" />
         <module name="EurekaRegisterCenter" />
         <module name="middleWare" />
+        <module name="rocketMq-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BaseJdk" target="1.8" />
-      <module name="elasticDemo" target="1.8" />
-      <module name="EurekaRegisterCenter" target="1.8" />
-      <module name="middleWare" target="1.8" />
-      <module name="SinoParent" target="1.8" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BaseJdk" options="-parameters" />
+      <module name="EurekaRegisterCenter" options="-parameters" />
+      <module name="elasticDemo" options="-parameters" />
+      <module name="middleWare" options="-parameters" />
+      <module name="rocketMq-demo" options="-parameters" />
+    </option>
   </component>
 </project>
