@@ -18,9 +18,7 @@ import java.util.concurrent.locks.Lock;
 public class LockRegistryDemo {
 
 	public static String GOODS_BALANCE_LOCK = "lock_goods_balance_";
-//	public static String GOODS_BALANCE_KEY = "goods_balance_";
-	/* 锁前缀 */
-//	public static String PERFIX_KEY_OF_LOCK = "lock";
+
 
 	@Autowired
 	RedisLockRegistry redisLockRegistry;
@@ -33,32 +31,38 @@ public class LockRegistryDemo {
 	public void testLock() {
 
 		ExecutorService pool = Executors.newFixedThreadPool(5);
-		
-		Lock lock = redisLockRegistry.obtain(GOODS_BALANCE_LOCK);
-		System.err.println("get lock :" + lock.toString());
-		for (int i = 0; i < 100; i++) {
-			pool.execute(new Runnable() {
-				@Override
-				public void run() {
+		for (int i = 0; i < 5; i++) {
+			pool.execute(() -> {
+				Lock lock = redisLockRegistry.obtain(GOODS_BALANCE_LOCK);
+				System.err.println("get lock :" + lock.toString());
+				String name = Thread.currentThread().getName();
 
-					try {
-						while (!lock.tryLock()) {
-							try {
-								System.err.println(Thread.currentThread().getName() + "get lock error;");
-								Thread.sleep(1000);
-							} catch (Exception e) {
-								System.err.println("e:"+e.getMessage());
-
-							}
-						}
-					} catch (Exception ex) {
-						ex.printStackTrace();
-					} finally {
-						lock.unlock();
+				try {
+					boolean b = lock.tryLock();
+					if (b) {
+						System.err.println("锁成功:" + name);
 					}
 
+
+				} catch (Exception ex) {
+					System.out.println("锁异常：" + ex.getMessage() + name);
+				}finally {
+
+					try {
+						lock.unlock();
+						System.out.println("释放锁成功：" + name);
+
+					} catch (Exception e) {
+						System.out.println("释放锁失败：" + e.getMessage() + name);
+					}
 				}
+
+
 			});
+		}
+
+		while (true) {
+
 		}
 
 	}
@@ -144,25 +148,7 @@ public class LockRegistryDemo {
 
 	}
 
-	@Test
-	public void testUnlock() {
 
-
-
-
-			try {
-				Lock lock = redisLockRegistry.obtain(GOODS_BALANCE_LOCK);
-				lock.lock();
-				String string = lock.toString();
-				System.out.println("lock string :" + string);
-//				Object value= redisTemplate.opsForValue().get("lock:registry:lock_goods_balance_");
-//				System.out.println("value:"+value.toString());
-				lock.unlock();
-				Thread.currentThread().sleep(1000);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
 
 
 }

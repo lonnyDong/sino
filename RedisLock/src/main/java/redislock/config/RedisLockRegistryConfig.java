@@ -14,14 +14,12 @@ public class RedisLockRegistryConfig {
 
 	 private static volatile RedisLockRegistry redisLockRegistry = null;
 
-	private static final String PRE_CACHE_LOCK = "lock:registry";
+	private static final String PRE_CACHE_LOCK = "redlock";
 
 
 	@Bean
 	public RedisLockRegistry createRedisLock(LettuceConnectionFactory lettuceConnectionFactory) {
-	    RedisLockRegistry lock = new RedisLockRegistry(lettuceConnectionFactory, PRE_CACHE_LOCK,60000L);
-	    redisLockRegistry = lock;
-	    return lock;
+		return new RedisLockRegistry(lettuceConnectionFactory, PRE_CACHE_LOCK,300000L);
 	}
 
 	public  static RedisLockRegistry getRedisLockRegistry() {
