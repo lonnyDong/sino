@@ -3,7 +3,7 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 
-<mapper namespace="com.sino.middle_ware.dao.CityDao" >
+<mapper namespace="redislock.dao.CityDao" >
   <resultMap id="BaseResultMap" type="com.sino.middle_ware.bean.City" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
