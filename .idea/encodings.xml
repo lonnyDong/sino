@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/RedisLock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elasticDemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/middleWare" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redisLua" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketMq-demo" charset="UTF-8" />
   </component>
 </project>

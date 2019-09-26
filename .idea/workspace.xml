@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef3c2ff-abd1-40e7-8afe-93b6bc7f030b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RedisLock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/RedisLockApplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/bean/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/LuttuceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisLockRegistryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/dao/CityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/service/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/java/redislock/utils/RedisTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/resources/application-uat.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleWare/src/main/resources/mapper/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/middleWare/src/main/resources/mapper/CityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleWare/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/middleWare/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticDemo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/elasticDemo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticDemo/target/classes/com/sino/elastic/EsApplications.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticDemo/target/classes/com/sino/elastic/EsApplications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticDemo/target/classes/com/sino/elastic/bean/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticDemo/target/classes/com/sino/elastic/bean/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticDemo/target/classes/com/sino/elastic/config/DataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticDemo/target/classes/com/sino/elastic/config/DataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticDemo/target/test-classes/com/sino/elastic/demo/ArticleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticDemo/target/test-classes/com/sino/elastic/demo/ArticleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticDemo/target/test-classes/com/sino/elastic/demo/ChineseName.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticDemo/target/test-classes/com/sino/elastic/demo/ChineseName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleWare/target/classes/mapper/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/middleWare/target/classes/mapper/CityMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/EurekaRegisterCenter/target/" />
     <ignored path="$PROJECT_DIR$/middleWare/target/" />
@@ -34,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/BaseJdk/target/" />
     <ignored path="$PROJECT_DIR$/elasticDemo/target/" />
     <ignored path="$PROJECT_DIR$/RedisLock/target/" />
+    <ignored path="$PROJECT_DIR$/redisLua/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,117 +29,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/RedisLockApplications.java">
+        <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/org/aopalliance/aop/Advice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/org/aopalliance/aop/AspectException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0-sources.jar!/com/netflix/client/http/HttpRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="153" column="45" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RedisLock/src/main/resources/application-dev.properties">
+        <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/TryLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="334" column="9" selection-start-line="334" selection-start-column="9" selection-end-line="334" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE.jar!/org/springframework/integration/redis/util/RedisUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleWare/src/main/java/com/sino/middle_ware/config/RedisLockRegistryConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisLockRegistryConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/LuttuceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="28" column="97" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="478" column="19" selection-start-line="478" selection-start-column="19" selection-end-line="478" selection-end-column="19" />
+            <state relative-caret-position="1558">
+              <caret line="96" column="36" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>192.168.110.128</find>
-      <find>redisTemplate</find>
       <find>redisLockRegistry</find>
       <find>buyGoods</find>
       <find>redisCacheTemplate</find>
       <find>redisConnectionFactory</find>
       <find>OBTAIN_LOCK_SCRIPT</find>
+      <find>redisTemplate</find>
     </findStrings>
     <replaceStrings>
       <replace>xxx.xxx.xx.xxx</replace>
@@ -190,14 +131,33 @@
         <option value="$PROJECT_DIR$/RedisLock/src/main/resources/application_dev.properties" />
         <option value="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/LuttuceConfig2.java" />
         <option value="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/LuttuceConfig.java" />
-        <option value="$PROJECT_DIR$/RedisLock/src/main/java/redislock/RedisLockApplications.java" />
         <option value="$PROJECT_DIR$/RedisLock/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/RedisLock/pom.xml" />
         <option value="$PROJECT_DIR$/RedisLock/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/RedisLock/src/test/java/LockRegistryDemo.java" />
-        <option value="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisLockRegistryConfig.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/main/java/redislock/RedisLockApplications.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/RedisLockTest.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo2.java" />
+        <option value="$PROJECT_DIR$/RedisLock/pom.xml" />
         <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockWaitDemo.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/ReenTrantLockLockDemo.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/TryLockDemo.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockDemo.java" />
+        <option value="$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisLockRegistryConfig.java" />
+        <option value="$PROJECT_DIR$/redisLua/pom.xml" />
+        <option value="$PROJECT_DIR$/redisLua/src/test/java/LuaDemo.java" />
+        <option value="$PROJECT_DIR$/redisLua/src/main/java/com/sino/lua/config/RedisLockRegistryConfig.java" />
+        <option value="$PROJECT_DIR$/redisLua/src/main/resources/testScript.lua" />
+        <option value="$PROJECT_DIR$/elasticDemo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/elasticDemo/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -205,22 +165,34 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RedisLock" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="elasticDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RedisLock" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="elasticDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="elasticDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="elasticDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.data:spring-data-elasticsearch:3.1.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="350" />
-    <option name="y" value="90" />
+    <option name="x" value="-7" />
     <option name="width" value="1380" />
-    <option name="height" value="765" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -228,106 +200,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redislock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redislock" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redislock" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SinoParent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisLock" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redislock" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,10 +212,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556525596208" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RedisLock/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557306438408" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ideaSpace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -349,9 +227,11 @@
       <recent name="redislock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="redislock" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\myGitHub\sino\redisLua\src\main\java\com\sino\lua" />
       <recent name="D:\workspace\myGitHub\sino\RedisLock\src\main\java\redislock\config" />
       <recent name="D:\workspace\myGitHub\sino\RedisLock\src\main\resources" />
       <recent name="D:\workspace\myGitHub\sino\RedisLock\src\main\java" />
@@ -376,11 +256,33 @@
     </option>
     <option name="contentProportion" value="0.16341992" />
   </component>
-  <component name="RunManager" selected="JUnit.LockRegistryDemo.testUnlock">
-    <configuration name="LockRegistryDemo.testByGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArticleTest.batchInsertArticle">
+    <configuration name="ArticleTest.batchInsertArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sino.elastic.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sino.elastic.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.sino.elastic.demo.ArticleTest" />
+      <option name="METHOD_NAME" value="batchInsertArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockDemo.testByGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RedisLock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redislock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="redislock" />
-      <option name="MAIN_CLASS_NAME" value="redislock.LockRegistryDemo" />
+      <option name="MAIN_CLASS_NAME" value="redislock.LockDemo" />
       <option name="METHOD_NAME" value="testByGoods" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -397,7 +299,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockRegistryDemo.testUnlock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReenTrantLockLockDemo.testByGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RedisLock" />
       <extension name="coverage">
         <pattern>
@@ -406,8 +308,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="redislock" />
-      <option name="MAIN_CLASS_NAME" value="redislock.LockRegistryDemo" />
-      <option name="METHOD_NAME" value="testUnlock" />
+      <option name="MAIN_CLASS_NAME" value="redislock.ReenTrantLockLockDemo" />
+      <option name="METHOD_NAME" value="testByGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryLockDemo.testByGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RedisLock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redislock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redislock" />
+      <option name="MAIN_CLASS_NAME" value="redislock.TryLockDemo" />
+      <option name="METHOD_NAME" value="testByGoods" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -434,14 +352,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisLockApplications" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisLockApplications" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="RedisLock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redislock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="redislock.RedisLockApplications" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -456,9 +368,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LockRegistryDemo.testUnlock" />
-        <item itemvalue="JUnit.LockRegistryDemo.testByGoods" />
-        <item itemvalue="Spring Boot.RedisLockApplications" />
+        <item itemvalue="JUnit.ArticleTest.batchInsertArticle" />
+        <item itemvalue="JUnit.LockDemo.testByGoods" />
+        <item itemvalue="JUnit.TryLockDemo.testByGoods" />
+        <item itemvalue="JUnit.ReenTrantLockLockDemo.testByGoods" />
         <item itemvalue="JUnit.LockRegistryDemo.testLock" />
       </list>
     </recent_temporary>
@@ -474,484 +387,816 @@
       <option name="presentableId" value="Default" />
       <updated>1556506472333</updated>
       <workItem from="1556506476098" duration="14196000" />
+      <workItem from="1557208345408" duration="403000" />
+      <workItem from="1557208963940" duration="386000" />
+      <workItem from="1557303917609" duration="823000" />
+      <workItem from="1557304772380" duration="1402000" />
+      <workItem from="1557306483483" duration="172000" />
+      <workItem from="1557307738905" duration="24714000" />
+      <workItem from="1557468624076" duration="7300000" />
+      <workItem from="1557976333777" duration="63000" />
+      <workItem from="1569483508712" duration="237000" />
     </task>
+    <task id="LOCAL-00001" summary="redlock锁测试代码">
+      <created>1557385721459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557385721459</updated>
+    </task>
+    <task id="LOCAL-00002" summary="redlock锁测试代码">
+      <created>1557399765540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557399765540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LockRegistryDemo_testByGoods - 2019.04.29 at 15h 40m 38s.xml">
-      <configuration name="LockRegistryDemo.testByGoods" configurationId="JUnit" />
+    <history-entry file="LockDemo_testByGoods - 2019.05.09 at 17h 32m 32s.xml">
+      <configuration name="LockDemo.testByGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testByGoods - 2019.04.29 at 15h 41m 40s.xml">
-      <configuration name="LockRegistryDemo.testByGoods" configurationId="JUnit" />
+    <history-entry file="LockDemo_testByGoods - 2019.05.09 at 17h 33m 48s.xml">
+      <configuration name="LockDemo.testByGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testByGoods - 2019.04.29 at 15h 44m 33s.xml">
-      <configuration name="LockRegistryDemo.testByGoods" configurationId="JUnit" />
+    <history-entry file="TryLockDemo_testByGoods - 2019.05.09 at 18h 48m 09s.xml">
+      <configuration name="TryLockDemo.testByGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testByGoods - 2019.04.29 at 15h 51m 05s.xml">
-      <configuration name="LockRegistryDemo.testByGoods" configurationId="JUnit" />
+    <history-entry file="LockDemo_testByGoods - 2019.05.09 at 18h 52m 13s.xml">
+      <configuration name="LockDemo.testByGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testUnlock - 2019.04.29 at 15h 55m 18s.xml">
-      <configuration name="LockRegistryDemo.testUnlock" configurationId="JUnit" />
+    <history-entry file="LockDemo_testByGoods - 2019.05.09 at 18h 53m 23s.xml">
+      <configuration name="LockDemo.testByGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testUnlock - 2019.04.29 at 15h 56m 34s.xml">
-      <configuration name="LockRegistryDemo.testUnlock" configurationId="JUnit" />
+    <history-entry file="LockDemo_testByGoods - 2019.05.09 at 18h 54m 27s.xml">
+      <configuration name="LockDemo.testByGoods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testUnlock - 2019.04.29 at 15h 58m 28s.xml">
-      <configuration name="LockRegistryDemo.testUnlock" configurationId="JUnit" />
+    <history-entry file="ArticleTest_batchInsertArticle - 2019.05.10 at 14h 21m 07s.xml">
+      <configuration name="ArticleTest.batchInsertArticle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testUnlock - 2019.04.29 at 16h 04m 33s.xml">
-      <configuration name="LockRegistryDemo.testUnlock" configurationId="JUnit" />
+    <history-entry file="ArticleTest_batchInsertArticle - 2019.05.10 at 14h 26m 54s.xml">
+      <configuration name="ArticleTest.batchInsertArticle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testUnlock - 2019.04.29 at 16h 05m 22s.xml">
-      <configuration name="LockRegistryDemo.testUnlock" configurationId="JUnit" />
+    <history-entry file="ArticleTest_batchInsertArticle - 2019.05.10 at 14h 28m 56s.xml">
+      <configuration name="ArticleTest.batchInsertArticle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LockRegistryDemo_testUnlock - 2019.04.29 at 16h 11m 32s.xml">
-      <configuration name="LockRegistryDemo.testUnlock" configurationId="JUnit" />
+    <history-entry file="ArticleTest_batchInsertArticle - 2019.05.10 at 14h 52m 26s.xml">
+      <configuration name="ArticleTest.batchInsertArticle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14196000" />
+    <option name="totallyTimeSpent" value="49707000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29211086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.13585746" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.57238305" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32962137" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32962137" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54342985" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37088388" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43875277" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.28144988" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Duplicate detector" order="7" weight="0.57238305" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32962137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.13585746" />
+      <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.13326226" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4956822" weight="0.304371" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Codota" order="10" sideWeight="0.7512953" weight="0.40166414" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" sideWeight="0.50431776" side_tool="true" weight="0.43192133" />
+      <window_info anchor="right" id="LuaJ" order="12" sideWeight="0.49913645" weight="0.15355521" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redlock锁测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="redlock锁测试代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo2.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE-sources.jar!/org/springframework/integration/redis/util/RedisLockRegistry.java</url>
+          <line>323</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE-sources.jar!/org/springframework/integration/redis/util/RedisUtils.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE-sources.jar!/org/springframework/integration/redis/util/RedisUtils.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/resources/application_uat.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE.jar!/org/springframework/test/context/junit4/statements/SpringRepeat.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="589">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/resources/application_dev.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="372">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/java/com/sino/middle_ware/redssion/AquiredLockWorker.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="941">
+          <caret line="171" column="46" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedssionConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/JedisRedisConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="84" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/ApiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/redssion/AquiredLockWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/redssion/DistributedLocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/redssion/RedisLocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="219">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#0#1083#0" expanded="true" />
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.8.RELEASE/spring-data-redis-2.0.8.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/RedisCallback.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="152">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.0.6.RELEASE/spring-integration-redis-5.0.6.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17483">
+          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="478" column="19" selection-start-line="478" selection-start-column="19" selection-end-line="478" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestExecutionCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JAVA/org.springframework.integration.redis.util.RedisUtils">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.integration.redis.util.RedisUtils</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.integration.redis.util.RedisUtils</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.sino:RedisLock:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.sino:RedisLock:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sino:RedisLock:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.1.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.0.RELEASE/org.aspectj:aspectjweaver:jar:1.9.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.5.0/io.github.openfeign.form:feign-form:jar:3.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.5.0/commons-fileupload:commons-fileupload:jar:1.3.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.1.0.RELEASE/io.github.openfeign.form:feign-form-spring:jar:3.5.0/commons-fileupload:commons-fileupload:jar:1.3.3/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework:spring-web:jar:5.1.2.RELEASE/org.springframework:spring-beans:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.1.0.RELEASE/org.springframework.security:spring-security-crypto:jar:5.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-core:jar:10.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-slf4j:jar:10.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-hystrix:jar:10.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-hystrix:jar:10.1.0/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-hystrix:jar:10.1.0/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-hystrix:jar:10.1.0/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-hystrix:jar:10.1.0/com.netflix.hystrix:hystrix-core:jar:1.5.18</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.1.0.RELEASE/io.github.openfeign:feign-hystrix:jar:10.1.0/com.netflix.hystrix:hystrix-core:jar:1.5.18/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/org.apache.httpcomponents:httpclient:jar:4.5.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.8/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.8/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.8/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.8/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.0.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.0.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.1.0.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.1.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.0.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.0.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.0.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.0.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.13.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-aop:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-context:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.0.RELEASE/org.springframework:spring-webmvc:jar:5.1.2.RELEASE/org.springframework:spring-expression:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/net.bytebuddy:byte-buddy:jar:1.9.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/net.bytebuddy:byte-buddy-agent:jar:1.9.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.mockito:mockito-core:jar:2.23.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-core:jar:5.1.2.RELEASE/org.springframework:spring-jcl:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.springframework:spring-test:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.0.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+            <node x="" y="">com.github.pagehelper:pagehelper:jar:5.0.4</node>
+            <node x="" y="">com.github.pagehelper:pagehelper:jar:5.0.4/com.github.jsqlparser:jsqlparser:jar:1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.0.RELEASE/com.zaxxer:HikariCP:jar:3.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.0.RELEASE/org.springframework:spring-jdbc:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.0.RELEASE/org.springframework:spring-jdbc:jar:5.1.2.RELEASE/org.springframework:spring-tx:jar:5.1.2.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.13</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis:jar:3.4.4</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/org.springframework.data:spring-data-redis:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/org.springframework.data:spring-data-redis:jar:2.1.2.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/org.springframework.data:spring-data-redis:jar:2.1.2.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.1.2.RELEASE/org.springframework.data:spring-data-commons:jar:2.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/org.springframework.data:spring-data-redis:jar:2.1.2.RELEASE/org.springframework:spring-oxm:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/org.springframework.data:spring-data-redis:jar:2.1.2.RELEASE/org.springframework:spring-context-support:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.projectreactor:reactor-core:jar:3.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.projectreactor:reactor-core:jar:3.2.2.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.netty:netty-common:jar:4.1.29.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.netty:netty-transport:jar:4.1.29.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.netty:netty-transport:jar:4.1.29.Final/io.netty:netty-buffer:jar:4.1.29.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.netty:netty-transport:jar:4.1.29.Final/io.netty:netty-resolver:jar:4.1.29.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.netty:netty-handler:jar:4.1.29.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.1.0.RELEASE/io.lettuce:lettuce-core:jar:5.1.2.RELEASE/io.netty:netty-handler:jar:4.1.29.Final/io.netty:netty-codec:jar:4.1.29.Final</node>
+            <node x="" y="">org.springframework.integration:spring-integration-redis:jar:5.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.integration:spring-integration-redis:jar:5.1.0.RELEASE/org.springframework.integration:spring-integration-core:jar:5.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.integration:spring-integration-redis:jar:5.1.0.RELEASE/org.springframework.integration:spring-integration-core:jar:5.1.0.RELEASE/org.springframework:spring-messaging:jar:5.1.2.RELEASE</node>
+            <node x="" y="">org.springframework.integration:spring-integration-redis:jar:5.1.0.RELEASE/org.springframework.integration:spring-integration-core:jar:5.1.0.RELEASE/org.springframework.retry:spring-retry:jar:1.2.2.RELEASE</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.49</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.apache.commons:commons-pool2:jar:2.6.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:2.1.0.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:2.1.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:2.1.0.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-annotations:jar:1.5.14</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.swagger:swagger-models:jar:1.5.14</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spi:jar:2.8.0/io.springfox:springfox-core:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-schema:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-swagger-common:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/io.springfox:springfox-spring-web:jar:2.8.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.8.0/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.8.0</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.09317171717171717" x="6178.0" y="1195.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE-sources.jar!/org/springframework/integration/redis/util/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE-sources.jar!/org/springframework/integration/redis/util/RedisLockRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="318" column="30" selection-start-line="318" selection-start-column="21" selection-end-line="318" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/src/test/java/com/sino/middle_ware/test/LockRegistryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/src/test/java/com/sino/middle_ware/test/UserDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/src/test/java/com/sino/middle_ware/test/JedisTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <folding>
+            <element signature="e#0#16280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/src/test/java/com/sino/middle_ware/test/CollectionsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/src/test/java/com/sino/middle_ware/test/DistributeLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="727" column="9" selection-start-line="727" selection-start-column="9" selection-end-line="727" selection-end-column="9" />
+          <folding>
+            <element signature="e#27298#27299#0" expanded="true" />
+            <element signature="e#27343#27344#0" expanded="true" />
+            <element signature="e#33491#33492#0" expanded="true" />
+            <element signature="e#33536#33537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/ReenTrantLockLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.4.RELEASE/spring-integration-redis-5.1.4.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/utils/RedisTool.java">
+    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisLockRegistryConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/resources/mapper/CityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/java/com/sino/middle_ware/dao/CityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies-parent/2.1.2.RELEASE/spring-cloud-dependencies-parent-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Greenwich.RELEASE/spring-cloud-dependencies-Greenwich.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/bean/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/dao/CityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/redisLua/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/service/RedisService.java">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/test/java/LuaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/service/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/resources/application-uat.properties">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/main/java/com/sino/lua/config/RedisCacheConfig.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/java/com/sino/middle_ware/config/LuttuceConfig.java">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/main/java/com/sino/lua/config/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="70" />
+        <state relative-caret-position="190">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/RedisAccessor.class">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/main/java/com/sino/lua/config/LuttuceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/LuttuceConfig2.java">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/main/java/com/sino/lua/config/RedisLockRegistryConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="15" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="226" column="20" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
-          <folding>
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#4929#4930#0" expanded="true" />
-            <element signature="e#5062#5063#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettucePoolingClientConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="169" column="48" selection-start-line="169" selection-start-column="48" selection-end-line="169" selection-end-column="48" />
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RedisLock/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        <state relative-caret-position="988">
+          <caret line="52" column="57" selection-end-line="90" selection-end-column="10" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/main/java/com/sino/lua/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisCacheConfig.java">
+    <entry file="file://$PROJECT_DIR$/redisLua/src/main/resources/testScript.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticDemo/src/main/java/com/sino/elastic/EsApplications.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/LuttuceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="97" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middleWare/src/main/java/com/sino/middle_ware/config/RedisLockRegistryConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/RedisLockApplications.java">
+    <entry file="file://$PROJECT_DIR$/elasticDemo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-elasticsearch/2.1.0.RELEASE/spring-boot-starter-data-elasticsearch-2.1.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.2.RELEASE/spring-data-elasticsearch-3.1.2.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="478" column="19" selection-start-line="478" selection-start-column="19" selection-end-line="478" selection-end-column="19" />
+        <state relative-caret-position="-570">
+          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="334" column="9" selection-start-line="334" selection-start-column="9" selection-end-line="334" selection-end-column="9" />
+        <state relative-caret-position="-504">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE.jar!/org/springframework/integration/redis/util/RedisUtils.class">
+    <entry file="file://$PROJECT_DIR$/elasticDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="361">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-redis/5.1.0.RELEASE/spring-integration-redis-5.1.0.RELEASE.jar!/org/springframework/integration/redis/util/RedisLockRegistry.class">
+    <entry file="file://$PROJECT_DIR$/elasticDemo/src/test/java/com/sino/elastic/demo/ChineseName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="1026">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/java/redislock/config/RedisLockRegistryConfig.java">
+    <entry file="file://$PROJECT_DIR$/elasticDemo/src/test/java/com/sino/elastic/demo/ArticleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/elasticDemo/src/main/java/com/sino/elastic/bean/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/org/aopalliance/aop/Advice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/org/aopalliance/aop/AspectException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/LockRegistryDemo.java">
+    <entry file="file://$PROJECT_DIR$/RedisLock/src/test/java/redislock/TryLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="153" column="45" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1558">
+          <caret line="96" column="36" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0-sources.jar!/com/netflix/client/http/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RedisLock</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

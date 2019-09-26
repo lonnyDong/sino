@@ -11,6 +11,7 @@
         <module name="EurekaRegisterCenter" />
         <module name="middleWare" />
         <module name="RedisLock" />
+        <module name="redisLua" />
         <module name="rocketMq-demo" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="RedisLock" options="-parameters" />
       <module name="elasticDemo" options="-parameters" />
       <module name="middleWare" options="-parameters" />
+      <module name="redisLua" options="-parameters" />
       <module name="rocketMq-demo" options="-parameters" />
     </option>
   </component>
