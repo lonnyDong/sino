@@ -114,8 +114,10 @@ public class Blowfish implements Encryptor {
         int nLen = (sCipherText.length() >> 1) & ~7;
 
         // does the given stuff make sense (at least the CBC IV)?
-        if (nLen < BlowfishECB.BLOCKSIZE)
+        if (nLen < BlowfishECB.BLOCKSIZE){
             return null;
+        }
+
 
         // get the CBC IV
         byte[] cbciv = new byte[BlowfishCBC.BLOCKSIZE];
@@ -124,9 +126,9 @@ public class Blowfish implements Encryptor {
                 0,
                 0,
                 BlowfishCBC.BLOCKSIZE);
-        if (nNumOfBytes < BlowfishCBC.BLOCKSIZE)
+        if (nNumOfBytes < BlowfishCBC.BLOCKSIZE) {
             return null;
-
+        }
         // something left to decrypt?
         nLen -= BlowfishCBC.BLOCKSIZE;
         if (nLen == 0)
@@ -1491,7 +1493,7 @@ public class Blowfish implements Encryptor {
             digest.update(password.getBytes());
         }
         catch (Exception e) {
-            Log.error(e.getMessage(), e);
+            e.printStackTrace();
         }
 
         // setup the encryptor (use a dummy IV)
